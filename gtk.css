@@ -1,0 +1,32 @@
+#clock-button {
+  background-color: #646464;
+  border-radius: 20px;
+  color: #fff;
+  margin: 5px;
+  padding: 5px;
+}
+ 
+.xfce4-panel widget grid button.flat.toggle:hover { 
+  all: unset;
+}
+.xfce4-panel widget grid button.flat.toggle:checked { 
+  all: unset;
+  background-color: #646464;
+  border-radius: 20px;
+  color: #fff;
+  margin: 5px;
+  padding: 5px;
+}
+ 
+.xfce4-panel .tasklist .toggle {
+  all: unset;
+}
+ 
+.xfce4-panel .tasklist .toggle:checked {
+  all: unset;
+  background-color: #646464;
+  color: #fff;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 20px; 
+}
