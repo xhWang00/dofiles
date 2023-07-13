@@ -5,42 +5,100 @@
 #XfcePanelWindow {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  border-top: 1px solid #646464;
+  border-top: 1px solid #ddd;
 }
 
 #clock-button {
-  background-color: #646464;
+  all: unset;
+  background-color: #ddd;
   border-radius: 20px;
-  color: #fff;
+  color: #202020;
   margin: 5px;
   padding: 5px;
 }
- 
+
+#clock-button:checked {
+  all: unset;
+  background-color: #ddd;
+  border-radius: 20px;
+  color: #202020;
+  margin: 5px;
+  padding: 5px;
+}
+
+#clock-button:hover {
+  all: unset;
+  background-color: #2d2d2d;
+  border-radius: 20px;
+  color: #ddd;
+  margin: 5px;
+  padding: 5px;
+}
+
 .xfce4-panel widget grid button.flat.toggle:hover { 
   all: unset;
+  background-color: #2d2d2d;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 10px;
 }
+
 .xfce4-panel widget grid button.flat.toggle:checked { 
   all: unset;
-  background-color: #646464;
+  background-color: #ddd;
   border-radius: 20px;
-  color: #fff;
+  color: #202020;
   margin: 5px;
-  padding: 5px;
+  padding: 10px;
 }
- 
+
 .xfce4-panel .tasklist .toggle {
   all: unset;
+  color: #fff;
   margin: 5px;
   padding: 5px;
   border-radius: 20px;
   background-color: #2d2d2d;
 }
- 
+
 .xfce4-panel .tasklist .toggle:checked {
   all: unset;
-  background-color: #646464;
-  color: #fff;
+  background-color: #ddd;
+  color: #202020;
   margin: 5px;
   padding: 5px;
   border-radius: 20px; 
+}
+
+#pulseaudio-button:hover {
+  all: unset;
+}
+
+#pulseaudio-button:checked {
+  all: unset;
+  background-color: #2d2d2d;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+#xfce4-power-manager-plugin:hover {
+  all: unset;
+}
+
+#xfce4-power-manager-plugin:checked {
+  all: unset;
+  background-color: #2d2d2d;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+#xfce4-notification-plugin:hover {
+  all: unset;
+}
+
+#xfce4-notification-plugin:checked {
+  all: unset;
+  background-color: #2d2d2d;
+  border-radius: 20px;
+  margin: 5px;
 }
