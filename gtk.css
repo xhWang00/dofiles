@@ -30,6 +30,10 @@
  
 .xfce4-panel .tasklist .toggle {
   all: unset;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #2d2d2d;
 }
  
 .xfce4-panel .tasklist .toggle:checked {
