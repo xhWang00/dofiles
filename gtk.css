@@ -70,8 +70,14 @@
   border-radius: 20px; 
 }
 
+#pulseaudio-button {
+  all: unset;
+  margin: 5px;
+}
+
 #pulseaudio-button:hover {
   all: unset;
+  margin: 5px;
 }
 
 #pulseaudio-button:checked {
